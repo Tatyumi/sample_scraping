@@ -46,7 +46,7 @@ class ChromeDriver():
                 pass
         else:
             # 指定回数内に呼び込みができなかった場合
-            self._logger.error("ページを取得できませんでした")
+            print("ページを取得できませんでした")
             # 終了処理
             return None
             
